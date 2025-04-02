@@ -1,0 +1,189 @@
+body, html{
+    background-color:#d4def9;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;  
+}
+
+.main {
+    position: relative;
+    margin: 105px auto;
+    background: linear-gradient(to right, hsl(241, 81%, 54%) 50%, white 50%);
+    width:50%;
+    height:70%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px; /* Adjust the width of the rounded divider */
+    height: 100%; /* Full height of the container */
+    background-color: hsl(241, 81%, 54%); /* Blue color */
+    border-radius: 100px; /* Rounds the middle dividing line */
+    transform: translateX(-66%);
+}
+
+.number {
+    position: absolute;
+    top: 6%;
+    left: 12%; 
+    font-size: 65px;
+    background: linear-gradient(to bottom, rgb(44, 5, 134) 0%, rgba(44, 5, 134, 0.1) 70%);  /* Gradient with opacity change */
+    color: white;
+    border-radius: 100px;
+    height: 40%;
+    font-weight: bolder;
+    width: 25%;
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    text-align: center;
+   
+}
+
+.hunnid {
+    color:rgb(161, 161, 161);
+    position: absolute;
+    top:41%;
+    left:21%
+}
+
+.result {
+    color: rgb(209, 202, 202);
+    font-size: 24px;
+    position: absolute;
+    font-family:Hanken Grotesk;
+    font-weight: bolder;
+    left:16%;
+    top:3%;
+}
+
+.great {
+    position: absolute;
+    top:60%;
+    font-size: 30px;
+    font-weight: bold;
+    left:19%;
+    color: white;
+}
+
+.text-main {
+    position: absolute;
+    font-size: 20px;
+    top: 73%;
+    left:4%;
+    color:rgb(209, 202, 202);
+    width: 40%;  
+    text-align: center;
+}   
+
+.white-side {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    top:3%;
+    left:25%;
+
+  
+}
+
+.summary{
+    position: absolute;
+    font-size: 24px;
+    top: 3%;
+    left:55%    
+
+}
+
+.reaction {
+    border-radius: 10px;
+    width:37%;
+    padding: 15px;
+    font-size:18px;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start;
+    margin-top: 70px;
+    background-color: rgb(244, 228, 228);
+    color: red;
+}
+
+.reaction  img, .memory img, .visual img,.verbal img{
+    width:7%;
+    margin-right: 10px;
+}
+
+.reaction  span, .memory span{
+    margin-left: 115px;
+    color: grey;
+    
+}
+
+.visual span,.verbal span{
+    margin-left: 130px;
+    color: grey;
+}
+
+
+.memory{
+    border-radius: 10px;
+    width:37%;
+    padding: 15px;
+    font-size:18px;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start;
+    background-color: rgb(247, 254, 212);
+    color:rgb(255, 174, 24)
+}
+
+
+
+.verbal{
+    border-radius: 10px;
+    width:37%;
+    padding: 15px;
+    font-size:18px;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start;
+    color:rgb(78, 189, 139);
+    background-color: rgb(201, 253, 247);
+}
+.visual {
+    border-radius: 10px;
+    width:37%;
+    padding: 15px;
+    font-size:18px;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start;
+    color:rgb(36, 36, 156);
+    background-color: rgb(203, 201, 253);
+}
+
+.bt {
+    width:36%;
+    padding: 19px;
+    background-color: rgb(62, 62, 92);
+    color:white;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+span strong {
+    color: black;
+    margin-right: 6px; 
+}
